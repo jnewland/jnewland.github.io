@@ -43,7 +43,7 @@ header {
   margin: 0 0 40px 0;
 }
 
-header h1 {
+header h1, header h2 {
   font-size: 30px;
   line-height: 1.5;
   margin: 0 0 0 -40px;
@@ -55,6 +55,7 @@ header h1 {
                0 0 10px rgba(181, 232, 83, 0.1);
   letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
+  display: inline;
 }
 
 header h1:before {
@@ -66,6 +67,12 @@ header h2 {
   font-size: 18px;
   font-weight: 300;
   color: #666;
+  display: inline;
+}
+
+header h2:before {
+  content: "/";
+  font-size: 18px;
 }
 
 #downloads .btn {
