@@ -1,0 +1,72 @@
+------------------------------------------------------------------------
+
+layout: post\
+typo\_id: 3655\
+title: "Capazon 0.2 Released - Capistrano 2.0 Compatible "\
+---\
+[Capazon](http://capazon.rubyforge.org/) 0.2.0 is out. There's only one
+new feature: support for [Capistrano 2.0](http://www.capify.org).
+There's no backwards compatibility. If you're still on Capistrano 1.4.x,
+please don't upgrade. It won't work.
+
+To update Capazon:
+
+-   `gem install capazon`
+
+### Changes
+
+Capistrano 2.0 has support for Rake-like namespaces, so I've moved all
+tasks provided by Capazon to the `ec2` namespace:
+
+{% highlight text %}\
+\$ cap ec2:describe\_images\
+\* executing \`ec2:describe\_images'\
+IMAGE ami-0386636a
+rbuilder-online/nuxleus-1.3-x86\_9327.img.manifest.xml 099034111737
+available true\
+IMAGE ami-0683666f
+rbuilder-online/fedoracore6-1.0-x86\_9677.img.manifest.xml 099034111737
+available true\
+\[...\]\
+{% endhighlight %}
+
+To call these tasks from another namespace in a Capistrano recipe:
+
+{% highlight ruby %}\
+namespace :whatever do\
+task :something\_cool do\
+\[...\]\
+ec2.describe\_images\
+\[...\]\
+end\
+end\
+{% endhighlight %}
+
+### Capistrano 2.0
+
+Turns out updating extensions to work w/ Capistrano 2.0 is extremely
+easy. Just replace blocks like this:
+
+{% highlight ruby %}\
+Capistrano.configuration(:must\_exist).load do\
+task :take\_over\_the \_world do\
+\[...\]\
+end\
+end\
+{% endhighlight %}
+
+...with this:
+
+{% highlight ruby %}\
+Capistrano::Configuration.instance.load do do\
+task :take\_over\_the \_world do\
+\[...\]\
+end\
+end\
+{% endhighlight %}
+
+For more on upgrading your recipes to Capistrano 2, head over to the
+[upgrade guide](http://www.capify.org/upgrade) on Capistrano's new
+website or [this
+post](http://nubyonrails.com/articles/2007/04/27/tips-for-upgrading-to-capistrano-2)
+on [NubyOnRails](http://nubyonrails.com/). Happy capifying!
