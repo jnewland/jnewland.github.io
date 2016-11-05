@@ -8,7 +8,12 @@
     <link rel="stylesheet" type="text/css" href="/stylesheets/github-dark.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print">
 
-    <title>{{ page.title }} | Jesse Newland</title>
+    <title>
+      {% if page.title != blank %}
+        {{ page.title }} |
+      {% endif %}
+      Jesse Newland
+    </title>
   </head>
 
   <body>
