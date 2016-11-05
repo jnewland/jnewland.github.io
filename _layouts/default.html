@@ -16,7 +16,9 @@
     <header>
       <div class="container">
         <h1>jnewland</h1>
+        {% if page.title != blank %}
         <h2>{{ page.title }}</h2>
+        {% endif %}
       </div>
     </header>
 
