@@ -46,7 +46,6 @@ header {
 header h1, header h2 {
   font-size: 30px;
   line-height: 1.5;
-  margin: 0 0 0 -40px;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: #b5e853;
@@ -58,21 +57,17 @@ header h1, header h2 {
   display: inline;
 }
 
+header h1 {
+  margin: 0 0 0 -40px;
+}
+
 header h1:before {
   content: "~/";
   font-size: 24px;
 }
 
-header h2 {
-  font-size: 18px;
-  font-weight: 300;
-  color: #666;
-  display: inline;
-}
-
 header h2:before {
   content: "/";
-  font-size: 18px;
 }
 
 #downloads .btn {
