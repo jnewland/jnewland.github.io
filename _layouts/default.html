@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-    <title>Jesse Newland</title>
+    <title>{{ page.title }} | Jesse Newland</title>
   </head>
 
   <body>
@@ -16,13 +16,13 @@
     <header>
       <div class="container">
         <h1>jnewland</h1>
-        <h2></h2>
+        <h2>{{ page.title }}</h2>
       </div>
     </header>
 
     <div class="container">
       <section id="main_content">
-        <p><g-emoji alias="wave" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44b.png" ios-version="6.0">👋</g-emoji> I'm <a href="https://github.com/jnewland" class="user-mention">@jnewland</a> on most things.</p>
+        {{ content }}
       </section>
     </div>
 
