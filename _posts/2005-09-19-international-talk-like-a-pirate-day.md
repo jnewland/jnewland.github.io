@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 72\
-title: International Talk Like a Pirate Day\
----\
+layout: post
+typo_id: 72
+title: International Talk Like a Pirate Day
+---
 Arrr mateys! It'll be off the plank for any of ye who should abandon the
 decree and not [talk like a pirate
 today](http://www.talklikeapirate.com/piratehome.html)! (via

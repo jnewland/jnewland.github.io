@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 44\
-title: My Final Semester Begins...\
----\
+layout: post
+typo_id: 44
+title: My Final Semester Begins...
+---
 This past Thursday marked the first day of my final semster at the
 [University of Georgia](http://www.uga.edu) in Athens. After a couple of
 days of strenuous syllabus sorting, things will [actually get
@@ -22,8 +22,8 @@ program specifications.*
 
 **** This seems like it will be a good bit of work. Eek.
 
-**Management Information Systems 4630 : \_ Network-Based Application
-Development\_**
+**Management Information Systems 4630 : _ Network-Based Application
+Development_**
 
 **** *Network-based application development using a current development
 language and platform. Concepts include application development
@@ -33,7 +33,7 @@ network-based application for an organization.*
 
 **** Web apps built using JSP and Servlets basically. Boo Java.
 
-**Management Information Systems 5640 : \_ Network Management\_**
+**Management Information Systems 5640 : _ Network Management_**
 
 **** *Basic computer networking technology concepts, standards,
 products, services, security, and emerging technologies. This course
@@ -46,7 +46,7 @@ extends to other networks.*
 for this class. [flickr.rb](http://redgreenblu.com/flickr/) and [Ruby on
 Rails](http://www.rubyonrails.com) anyone? This should be fun.
 
-**Management Information Systems 5990 : \_ Directed Study\_**
+**Management Information Systems 5990 : _ Directed Study_**
 
 **** I convinced [Dr. Peircy](http://www.terry.uga.edu/~cpiercy/) to
 sponsor me for a 3 hour directed study course. I'll be catching him up

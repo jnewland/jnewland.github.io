@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 148\
-title: Comments vs Trackbacks\
----\
+layout: post
+typo_id: 148
+title: Comments vs Trackbacks
+---
 I'm sick of expaining the difference between comments and trackbacks to
 people. For the last time:
 

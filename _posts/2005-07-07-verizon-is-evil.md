@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 14\
-title: verizon is evil\
----\
+layout: post
+typo_id: 14
+title: verizon is evil
+---
 [This
 man](http://gizmodo.com/gadgets/cellphones/verizon-is-evil-111492.php)
 was so angered by Verizon's replacement policies he stood in front of

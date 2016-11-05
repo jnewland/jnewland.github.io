@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 110\
-title: Fall Break\
----\
+layout: post
+typo_id: 110
+title: Fall Break
+---
 I'm taking a much needed long weekend in Bozeman, Montana to visit my
 girlfriend. I'll be spending most of the day tomorrow in airports (yay)
 so, to pass the time, I'll be taking a bunch of pictures with my new

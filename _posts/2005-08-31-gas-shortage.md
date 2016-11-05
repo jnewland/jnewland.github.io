@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 64\
-title: Gas Shortage\
----\
+layout: post
+typo_id: 64
+title: Gas Shortage
+---
 A developing story in the South today is the gas shortage that is taking
 place due to some major pipelines being down. [The AJC has
 this](http://www.ajc.com/news/content/business/0805/31bizgasprices.html):

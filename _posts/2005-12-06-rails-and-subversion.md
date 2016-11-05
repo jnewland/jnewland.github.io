@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 127\
-title: Rails and Subversion\
----\
+layout: post
+typo_id: 127
+title: Rails and Subversion
+---
 Woah, I missed the addition of the `-c` flag to the `./script/generate`
 command. (When did this happen?) From the help:
 

@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 158\
-title: Seven Reasons to Ignore Windows Vista and Buy a Mac\
----\
+layout: post
+typo_id: 158
+title: Seven Reasons to Ignore Windows Vista and Buy a Mac
+---
 In an article entitled [Ten Reasons to Buy Windows
 Vista](http://news.yahoo.com/news?tmpl=story&u=/ttpcworld/20060210/tc_techtues_pcworld/124642&cid=1740&ncid=1729),
 Michael Desmond at PCWorld gives what he thinks are ten things "to be

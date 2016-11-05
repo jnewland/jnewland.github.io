@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 3829\
-title: RailsConf '07 Roundup\
----\
+layout: post
+typo_id: 3829
+title: RailsConf '07 Roundup
+---
 <a style="float:left;margin:0 10px 5px 0"href="http://flickr.com/photos/x180/503535890/" title="David Heinemeier Hansson"><img src="http://farm1.static.flickr.com/191/503535890_b929f73b2e_m.jpg" /></a>
 
 <p style="float:left;clear:left;margin:0 10px 5px 0;width:160px;">

@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 291\
-title: What is the Secret of SoylentFoo?\
----\
+layout: post
+typo_id: 291
+title: What is the Secret of SoylentFoo?
+---
 There are a [million excuses for not
 blogging](http://www.jennshreve.com/thefblog/2006/10/sorry-i-havent-posted-in-awhile.html),
 but none of them are valid. I'm going to skip the excuses, and get right
@@ -29,7 +29,7 @@ The name needs no explanation, in my mind. If you're looking for one, I
 can't help much. Sorry. Make of it what you will.
 
 As part of the package, there's an entirely new
-[jnewland.com](http://jnewland.com) -\
+[jnewland.com](http://jnewland.com) -
 a [temple](http://adactio.com/extras/stream/)
 [of](http://www.bradsucks.net/archives/2006/11/14/temple-of-ego/)
 [ego](http://ego.cluebacca.com/) on steroids if you will - complete with

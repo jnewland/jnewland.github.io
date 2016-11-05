@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 70\
-title: Katrina Slideshow\
----\
+layout: post
+typo_id: 70
+title: Katrina Slideshow
+---
 [This
 slideshow](http://www.kodakgallery.com/Slideshow.jsp?mode=fromshare&Uc=14ewb3ap.b147fdut&Uy=nyvoby&Ux=1)
 (via

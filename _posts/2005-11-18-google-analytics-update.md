@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 121\
-title: Google Analytics Update\
----\
+layout: post
+typo_id: 121
+title: Google Analytics Update
+---
 Wow. From my freshly updated [Google
 Analytics](http://google.com/analytics) stats, we have my US visits
 breakdown by state:

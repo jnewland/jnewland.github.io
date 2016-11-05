@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 144\
-title: "Google to Feds: Don't be Evil"\
----\
+layout: post
+typo_id: 144
+title: "Google to Feds: Don't be Evil"
+---
 Sayeth [Ashok Ramani](http://www.kvn.com/attorneys_bio.php?id=33),
 representing Google, in their response a
 [subpoena](http://i.i.com.com/cnwk.1d/pdf/ne/2006/google-doj/mcelvain.declaration.pdf)

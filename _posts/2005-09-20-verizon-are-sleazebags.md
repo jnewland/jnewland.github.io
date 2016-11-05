@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 73\
-title: Verizon are sleazebags\
----\
+layout: post
+typo_id: 73
+title: Verizon are sleazebags
+---
 If you were to ask me right now, "Say, Jesse what time of the month is
 it?" I would probably answer:
 

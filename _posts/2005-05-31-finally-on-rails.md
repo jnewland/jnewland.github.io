@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 1\
-title: finally on rails!\
----\
+layout: post
+typo_id: 1
+title: finally on rails!
+---
 I gave in - all of the cool kids have textdrive accounts.
 
 This is a development install of [typo](http://typo.leetsoft.com) - an

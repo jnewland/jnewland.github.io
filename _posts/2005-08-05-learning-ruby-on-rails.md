@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 42\
-title: Learning Ruby on Rails\
----\
+layout: post
+typo_id: 42
+title: Learning Ruby on Rails
+---
 I just responded to the third e-mail in a week from friends asking me
 *"How do I learn Ruby on Rails?"* I've amassed a good collection of
 resources that are invaluable to anyone wanting to get on the proverbial
@@ -36,7 +36,7 @@ programming with Ruby*
 <!-- -->
 
 -   Check out the [Ruby on Rails Wiki](http://wiki.rubyonrails.com) for
-    tons of HowTo guides and community\
+    tons of HowTo guides and community
     documentation. The search feature is helpful.
 
 <!-- -->
@@ -50,9 +50,9 @@ programming with Ruby*
 
 -   [Snippets tagged as
     rails](http://www.bigbold.com/snippets/tag/rails) - Random rails
-    code\
-    written by random people showcased on a website that was written on\
-    rails in less than 2 days. Lots of great code to steal, or use as\
+    code
+    written by random people showcased on a website that was written on
+    rails in less than 2 days. Lots of great code to steal, or use as
     inspiration.
 
 <!-- -->
@@ -61,14 +61,14 @@ programming with Ruby*
     code](http://www.typosphere.org/trac/browser/trunk) of
     [typo](http://www.typosphere.org) the weblog engine I'm using on [my
     blog](http://jnewland.com). This is an excellent application, as
-    well as excellent code to use for\
+    well as excellent code to use for
     inspiration.
 
 <!-- -->
 
 -   Better yet, get a [Textdrive](http://www.textdrive.com) hosting
     account and setup a Typo blog for yourself! Textdrive is the best
-    webhost for Ruby on Rails.\
+    webhost for Ruby on Rails.
     Seriously, \$12 a month is cheap, and the support is great.
 
 <!-- -->

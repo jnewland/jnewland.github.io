@@ -1,8 +1,8 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 23\
-title: Tuesday Shorts\
+layout: post
+typo_id: 23
+title: Tuesday Shorts
 ---
 
 -   <a href="http://christopholis.com/?p=9" rel="bookmark" title="Permanent Link: Pirates v. Vikings v. Ninjas">Pirates v.

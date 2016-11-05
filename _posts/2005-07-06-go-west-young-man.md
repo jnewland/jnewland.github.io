@@ -1,8 +1,8 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 12\
-title: Go West, Young Man\
+layout: post
+typo_id: 12
+title: Go West, Young Man
 ---
 
 <div style="float: right; margin-left: 10px;margin-bottom: 10px;">
@@ -26,7 +26,7 @@ coming soon :)
 -   [Bozeman's Community Co-op](http://www.bozo.coop/) - mmm good
     food :)
 -   [Big Sky Country on Flickr - Photo
-    Sharing!](http://flickr.com/photos/mojo/16726234/) and\
+    Sharing!](http://flickr.com/photos/mojo/16726234/) and
     [Ayrek.com - Pics Around
     Bozeman](http://www.ayrek.com/Bozeman/bozopics_p.html) - wow!
     bozeman looks beautiful!

@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 113\
-title: Google Analytics\
----\
+layout: post
+typo_id: 113
+title: Google Analytics
+---
 I swear Google is stealing my ideas. I had a frustrating experience with
 the industry standard webstats package, Urchin, last night, and
 complained to a couple people about it.

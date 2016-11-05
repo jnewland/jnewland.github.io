@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 3647\
-title: Twitter Search Bot\
----\
+layout: post
+typo_id: 3647
+title: Twitter Search Bot
+---
 Go add [twittersearch](http://twitter.com/twittersearch) as a follower,
 wait one minute, then send a direct message to twittersearch with a
 search query ("d twittersearch foo"). You should get a direct message

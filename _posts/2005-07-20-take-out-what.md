@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 25\
-title: "\\"take out\\" what?"\
----\
+layout: post
+typo_id: 25
+title: "\\"take out\\" what?"
+---
 [This](http://www.cnn.com/2005/POLITICS/07/18/congressman.muslims.ap/index.html)
 is why having **old white men** in charge is a horrible idea. They say
 **stupid things** and **embarass the whole country**. The spoekesperson

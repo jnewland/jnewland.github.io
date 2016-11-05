@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 28\
-title: Ionic CRAP!\
----\
+layout: post
+typo_id: 28
+title: Ionic CRAP!
+---
 [Consumer Reports calls air purifier
 'unhealthy'](http://msnbc.msn.com/id/7391185/)
 

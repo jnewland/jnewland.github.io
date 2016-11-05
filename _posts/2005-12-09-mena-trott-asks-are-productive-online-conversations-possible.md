@@ -1,11 +1,11 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 131\
-title: "Mena Trott asks: Are Productive Online Conversations Possible?"\
----\
+layout: post
+typo_id: 131
+title: "Mena Trott asks: Are Productive Online Conversations Possible?"
+---
 In Mena Trott's [apologetic
-follow-up](http://www.sixapart.com/about/corner/2005/12/words_you_shoul.html)\
+follow-up](http://www.sixapart.com/about/corner/2005/12/words_you_shoul.html)
 to her
 [implosion](http://www.sixapart.com/about/corner/2005/12/mena_trott_impl.html)
 at Les Blogs ([video here](http://dltq.org/media/menavsben.mov)) she

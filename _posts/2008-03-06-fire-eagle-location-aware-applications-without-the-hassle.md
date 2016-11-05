@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 3884\
-title: "Fire Eagle: Location-Aware Applications Without the Hassle"\
----\
+layout: post
+typo_id: 3884
+title: "Fire Eagle: Location-Aware Applications Without the Hassle"
+---
 [Tom Coates](http://www.plasticbag.org/) said it best [yesterday morning
 at ETech](http://next.yahoo.net/archives/100/lo-fire-eagle-take-flight):
 people have been touting 'location-aware services' as the next big thing

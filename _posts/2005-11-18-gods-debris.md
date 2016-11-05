@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 120\
-title: God's Debris\
----\
+layout: post
+typo_id: 120
+title: God's Debris
+---
 Scott Adams' (of [Dilbert](http://www.dilbert.com) fame) has just
 released his book, *God's Debris*,
 [free](http://www.andrewsmcmeel.com/godsdebris/) as a
@@ -37,7 +37,7 @@ then move onto the sequel. I'm liking this approach.
 I just downloaded the
 [PDF](http://images.ucomics.com/images/pdfs/sadams/godsdebris.pdf) of
 *God's Debris* and browsed through the introduction. Adams' intended
-target audience for this book, he says, are "people who\
+target audience for this book, he says, are "people who
 enjoy having their brains spun around inside their skulls." I think I
 found my plans for the weekend. :)
 

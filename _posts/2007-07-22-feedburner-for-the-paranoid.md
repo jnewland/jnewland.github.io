@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 3839\
-title: FeedBurner for the Paranoid\
----\
+layout: post
+typo_id: 3839
+title: FeedBurner for the Paranoid
+---
 After all of the [hubub](http://www.techmeme.com/070721/p21#a070721p21)
 this weekend about how [FeedBurner](http://www.feedburner.com/) is
 ['trouble'](http://www.scripting.com/stories/2007/07/21/whyFeedburnerIsTrouble.html)

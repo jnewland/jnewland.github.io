@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 140\
-title: Xservs are up!\
----\
+layout: post
+typo_id: 140
+title: Xservs are up!
+---
 ![](http://files.jnewland.com/server.png) Today,
 [Lexblog](http://www.lexblog.com) took a big leap in the right
 direction. Our current server setup has been causing us headaches in

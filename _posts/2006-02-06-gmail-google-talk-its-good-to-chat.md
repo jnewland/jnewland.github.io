@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 147\
-title: "Gmail + Google Talk: It's Good to Chat"\
----\
+layout: post
+typo_id: 147
+title: "Gmail + Google Talk: It's Good to Chat"
+---
 via the
 [NYT](http://www.nytimes.com/2006/02/07/technology/07google.html?ex=1296968400&en=94d57a25d17db102&ei=5088&partner=rssnyt&emc=rss)
 and

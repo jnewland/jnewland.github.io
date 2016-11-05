@@ -1,23 +1,23 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 160\
+layout: post
+typo_id: 160
 title: How to Subscribe to TV Shows Using The Democracy Player,
-Bittorrent, and RSS\
----\
+Bittorrent, and RSS
+---
 
 &lt;div style="float:left;margin:10px;"&gt;
 &lt;script type="text/javascript"&gt;&lt;!--
-google\_ad\_client = "pub-5165033129816339";
+google_ad_client = "pub-5165033129816339";
 //250x250, created 11/22/07
-google\_ad\_slot = "4463239324";
-google\_ad\_width = 250;
-google\_ad\_height = 250;
+google_ad_slot = "4463239324";
+google_ad_width = 250;
+google_ad_height = 250;
 //--&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show\_ads.js"&gt;
+&lt;script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"&gt;
 &lt;/script&gt;
 &lt;/div&gt;
-\
+
 [The Democracy Player](http://www.getdemocracy.com/) is an amazing open
 source Internet TV application that allows you to subscribe to video RSS
 feeds from anywhere on the web. The default feeds will keep you supplied
@@ -38,7 +38,7 @@ I currently subscribe to this feed in
 [NetNewsWire](http://ranchero.com/netnewswire/) and download the new
 shows as they appear.
 
-These RSS feeds don't work with\
+These RSS feeds don't work with
 [The Democracy Player](http://www.getdemocracy.com/) just yet: the feeds
 simply *link* to the bittorrent file, but don't include the critical
 [*enclosure*](http://en.wikipedia.org/wiki/RSS_enclosure) element. But

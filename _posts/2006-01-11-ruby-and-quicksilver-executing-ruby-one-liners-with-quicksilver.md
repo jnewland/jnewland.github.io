@@ -1,10 +1,10 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 142\
+layout: post
+typo_id: 142
 title: "Ruby and Quicksilver: Executing Ruby one-liners with
-Quicksilver"\
----\
+Quicksilver"
+---
 To plug Ruby directly into your brain, take three short breaths, mutter
 a prayer to Matz, and then follow these instructions:
 
@@ -14,8 +14,8 @@ greater and [Quicksilver](http://quicksilver.blacktree.com/) </em>
 <ol>
 <li>
 Download this humble
-<a href="http://files.jnewland.com/neural_ruby.zip">Applescript</a>\
-{% highlight ruby %}\
+<a href="http://files.jnewland.com/neural_ruby.zip">Applescript</a>
+{% highlight ruby %}
 \#<using terms from application "Quicksilver"
     on process text t
         do shell script "ruby -00 -e '" & t & "'"
@@ -41,9 +41,9 @@ Invoke Quicksilver (`CTRL-Space`)
 </li>
 <li>
 Type a period (`.`) followed by your one-line stroke of genius, such
-as:\
-{% highlight ruby %}\
-\#&lt;\[ "in", "me", "plug" \].reverse\_each {|x| print x.upcase, " "
+as:
+{% highlight ruby %}
+\#&lt;\[ "in", "me", "plug" \].reverse_each {|x| print x.upcase, " "
 }{% endhighlight %}
 
 </li>

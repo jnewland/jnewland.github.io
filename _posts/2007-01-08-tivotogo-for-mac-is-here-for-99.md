@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 3614\
-title: TiVoToGo for Mac is Here - for \$99\
----\
+layout: post
+typo_id: 3614
+title: TiVoToGo for Mac is Here - for \$99
+---
 The buzz this morning is that
 [TiVoToGo](http://www.tivo.com/4.9.4.1-2_mac.asp)
 [for](http://www.wired.com/news/culture/mac/0,72420-0.html?tw=rss.index)
@@ -55,8 +55,8 @@ for it to download first, using curl,
 [mplayer](http://mplayerosx.sourceforge.net/):
 
 <div class="typocode">
-    <code>curl -k --digest -u tivo:{MAK} -c /dev/null "{tivo2go url}" |\
-    tivodecode -m {MAK} -- - |\
+    <code>curl -k --digest -u tivo:{MAK} -c /dev/null "{tivo2go url}" |
+    tivodecode -m {MAK} -- - |
     mplayer -vf pp=lb -cache 32768 -</code>
 
 </div>

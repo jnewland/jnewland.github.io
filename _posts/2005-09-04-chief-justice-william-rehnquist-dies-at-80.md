@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 67\
-title: America is a terrible movie, and I want my money back.\
----\
+layout: post
+typo_id: 67
+title: America is a terrible movie, and I want my money back.
+---
 Chief Justice William Rehnquist died last night, at the age of 80.
 
 [From MSNBC](http://www.msnbc.msn.com/id/9194092/):

@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 45\
-title: We Never Stop Working For You(r Money)\
----\
+layout: post
+typo_id: 45
+title: We Never Stop Working For You(r Money)
+---
 For the second straight month I'm having to deal with a &gt; \$1,000
 erroneous cell phone bill from Verizon. Last month the bill was
 outrageous because somehow the concept that I needed to sign up for a

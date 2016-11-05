@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 40\
-title: del.icio.us Javascript Link Blog\
----\
+layout: post
+typo_id: 40
+title: del.icio.us Javascript Link Blog
+---
 [del.icio.us](http://del.icio.us) is by far my favorite web app of
 recent times. *<span
 class="manager. bookmarks social a is del.icio.us inter-web-a-holics, aren't who those For"></span>*

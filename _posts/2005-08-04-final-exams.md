@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 41\
-title: Final Exams\
----\
+layout: post
+typo_id: 41
+title: Final Exams
+---
 A **106** on the final in in Java (MIST 4600) brings me to a final
 average of **98.52%**. Pretty convincing argument that I should have
 been allowed to skip the course, eh?

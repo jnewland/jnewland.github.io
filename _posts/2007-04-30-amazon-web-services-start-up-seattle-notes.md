@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 3654\
-title: "Amazon Web Services: Start-Up Seattle Notes"\
----\
+layout: post
+typo_id: 3654
+title: "Amazon Web Services: Start-Up Seattle Notes"
+---
 ![](http://aws.typepad.com/aws_logo.gif) Last Thursday's [Start-Up
 Seattle](http://aws.amazon.com/startupseattle) event put on by the
 [Amazon Web Services](http://aws.amazon.com/) Team and [Medrona Venture

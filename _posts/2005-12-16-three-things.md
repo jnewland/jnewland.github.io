@@ -1,8 +1,8 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 137\
-title: Three Things\
+layout: post
+typo_id: 137
+title: Three Things
 ---
 
 -   [Gmail Mobile](http://m.gmail.com) has convinced me to get my

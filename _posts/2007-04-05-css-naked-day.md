@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 3650\
-title: Css Naked Day\
----\
+layout: post
+typo_id: 3650
+title: Css Naked Day
+---
 In support of [web standards](http://www.webstandards.org/) and [CSS
 Naked Day](http://naked.dustindiaz.com/), the stylesheets on
 [Soylentfoo](http://soylentfoo.jnewland.com/) and my

@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 3636\
-title: Woot Twitter-bot Now Official\
----\
+layout: post
+typo_id: 3636
+title: Woot Twitter-bot Now Official
+---
 There's been quite a bit of anti-[Twitter](http://twitter.com) backlash
 recently, the most notable of which was a [Wall Street Journal
 article](http://online.wsj.com/public/article/SB117373145818634482-ZwdoPQ0PqPrcFMDHDZLz_P6osnI_20080315.html)

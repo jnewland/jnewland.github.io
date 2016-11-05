@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 66\
-title: Being poor\
----\
+layout: post
+typo_id: 66
+title: Being poor
+---
 This amazing post entitled [Being
 Poor](http://www.scalzi.com/whatever/003704.html) is required reading
 for anyone out there that still thinks that everyone that wanted to

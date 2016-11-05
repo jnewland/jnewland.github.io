@@ -1,10 +1,10 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 27\
-title: random subway searches?\
----\
-**Ben Franklin:**\
+layout: post
+typo_id: 27
+title: random subway searches?
+---
+**Ben Franklin:**
 bq. *"Those who would give up Essential Liberty to purchase a little
 Temporary Safety, deserve neither Liberty nor Safety."*
 

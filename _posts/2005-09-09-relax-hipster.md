@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 69\
-title: Relax, hipster!\
----\
+layout: post
+typo_id: 69
+title: Relax, hipster!
+---
 bq. ***Sep 9, 2005 12:45 AM** - Arrived at FedEx location -
 INDIANAPOLIS, IN*
 

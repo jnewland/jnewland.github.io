@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 3657\
-title: Joyent Slingshot Demo Notes\
----\
+layout: post
+typo_id: 3657
+title: Joyent Slingshot Demo Notes
+---
 [Eric Wagoner](http://www.ericwagoner.com/weblog/) gave a demo of the
 [Joyent's](http://joyent.com/newly) newly released offline Rails
 application toolkit, [Slinghot](http://developers.joyent.com/). He's had

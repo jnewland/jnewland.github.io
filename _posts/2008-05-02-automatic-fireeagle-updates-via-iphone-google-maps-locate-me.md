@@ -1,11 +1,11 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 3893\
-title: Automatic FireEagle updates via iPhone Google Maps 'Locate Me'\
----\
+layout: post
+typo_id: 3893
+title: Automatic FireEagle updates via iPhone Google Maps 'Locate Me'
+---
 The following instructions will setup your Jailbroken iPhone to update
-your [FireEagle](http://fireeagle.yahoo.net/)\
+your [FireEagle](http://fireeagle.yahoo.net/)
 location every 5 minutes. While [Navizon provides this same
 feature](http://theregoesdave.com/2008/03/21/navizon-enables-fire-eagle-location-updates/),
 I've been [less than impressed with it's
@@ -27,13 +27,13 @@ accurate than Navizon in my recent tests.
 
 -   Settings -&gt; General -&gt; Set Auto-Lock to 'Never'
     -   This is to ensure the SSH connection we'll establish in Step 3
-        isn't\
+        isn't
         terminate. You may revert this setting after following
         these instructions.
 
 ### Step 2: Determine your iPhone's IP Address
 
-\* Settings -&gt; Wi-Fi\
+\* Settings -&gt; Wi-Fi
 **** Tap the blue arrow to the right of the wireless network with the
 check by it
 
@@ -42,59 +42,59 @@ check by it
 Open Terminal (/Applications/Utilities/Terminal.app) and run the
 following:
 
-{% highlight text %}\
-ssh root@YOUR\_IPHONE\_IP\
+{% highlight text %}
+ssh root@YOUR_IPHONE_IP
 {% endhighlight %}
 
 Your password is 'alpine' unless you've changed it
 
 ### Step 4: Download needed files
 
-{% highlight text %}\
-mkdir -p bin/fireeagle\
-cd bin/fireeagle\
-curl -O http://ericasadun.com/ftp/TUAW/findme/authcheck\
-curl -O http://ericasadun.com/ftp/TUAW/findme/authtoken\
-curl -O http://ericasadun.com/ftp/TUAW/findme/firefindme\
-curl -O http://ericasadun.com/ftp/TUAW/findme/pingwifi\
+{% highlight text %}
+mkdir -p bin/fireeagle
+cd bin/fireeagle
+curl -O http://ericasadun.com/ftp/TUAW/findme/authcheck
+curl -O http://ericasadun.com/ftp/TUAW/findme/authtoken
+curl -O http://ericasadun.com/ftp/TUAW/findme/firefindme
+curl -O http://ericasadun.com/ftp/TUAW/findme/pingwifi
 {% endhighlight %}
 
 ### Step 5: Create wrapper script
 
-{% highlight text %}\
-cat &gt; /var/root/bin/fireeagle/firewrapper &lt;&lt; EOF\
-date &gt; /var/log/fire.log\
-/var/root/bin/fireeagle/pingwifi\
-/bin/sleep 7\
-/var/root/bin/fireeagle/firefindme -g -d -F &gt;&gt; /var/log/fire.log\
-/var/root/bin/fireeagle/firefindme -k -d -F &gt;&gt; /var/log/fire.log\
-exit 0\
-EOF\
+{% highlight text %}
+cat &gt; /var/root/bin/fireeagle/firewrapper &lt;&lt; EOF
+date &gt; /var/log/fire.log
+/var/root/bin/fireeagle/pingwifi
+/bin/sleep 7
+/var/root/bin/fireeagle/firefindme -g -d -F &gt;&gt; /var/log/fire.log
+/var/root/bin/fireeagle/firefindme -k -d -F &gt;&gt; /var/log/fire.log
+exit 0
+EOF
 {% endhighlight %}
 
 ### Step 6: Set executable bit on all files
 
-{% highlight text %}\
-chmod a+x /var/root/bin/fireeagle/\*\
+{% highlight text %}
+chmod a+x /var/root/bin/fireeagle/\*
 {% endhighlight %}
 
 ### Step 7: Authenticate with FireEagle
 
-{% highlight text %}\
-/var/root/bin/fireeagle/authtoken\
+{% highlight text %}
+/var/root/bin/fireeagle/authtoken
 {% endhighlight %}
 
 This will open a MobileSafari window. Login to your FireEagle account
 and allow TrackMe to update your location. Then run:
 
-{% highlight text %}\
-/var/root/bin/fireeagle/authcheck\
+{% highlight text %}
+/var/root/bin/fireeagle/authcheck
 {% endhighlight %}
 
 ### Step 8: Test!
 
-{% highlight text %}\
-/var/root/bin/fireeagle/firewrapper\
+{% highlight text %}
+/var/root/bin/fireeagle/firewrapper
 {% endhighlight %}
 
 After several seconds, you should be returned to a shell prompt. Now
@@ -108,31 +108,31 @@ If not, please start over at Step 4. Something's gone wrong.
 
 ### Step 9: Steup LaunchDaemon to ping FireEagle every 5 minutes
 
-{% highlight text %}\
+{% highlight text %}
 cat &gt; /Library/LaunchDaemons/com.fireeagle.ping.plist &lt;&lt; EOF
 
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">\
-<dict>\
-<key>Label</key>\
-<string>com.fireeagle.ping</string>\
-<key>ProgramArguments</key>\
-<array>\
-<string>/var/root/bin/fireeagle/firewrapper</string>\
-</array>\
-<key>RunAtLoad</key>\
-<false/>\
-<key>StartInterval</key>\
-<integer>300</integer>\
-</dict>\
-</plist>\
-EOF\
-launchctl load /Library/LaunchDaemons/com.fireeagle.ping.plist\
+<plist version="1.0">
+<dict>
+<key>Label</key>
+<string>com.fireeagle.ping</string>
+<key>ProgramArguments</key>
+<array>
+<string>/var/root/bin/fireeagle/firewrapper</string>
+</array>
+<key>RunAtLoad</key>
+<false/>
+<key>StartInterval</key>
+<integer>300</integer>
+</dict>
+</plist>
+EOF
+launchctl load /Library/LaunchDaemons/com.fireeagle.ping.plist
 {% endhighlight %}
 
 ### You're Finished!
 
-That should do it! Please let me know via twitter\
+That should do it! Please let me know via twitter
 ([@jnewland](http://twitter.com/jnewland)) or in the comments if you
 have any problems / suggestions! Big thanks to [Erica
 Sadun](http://ericasadun.com/) for writing the iPhone tools used to make

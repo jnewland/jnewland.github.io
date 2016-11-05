@@ -1,8 +1,8 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 289\
-title: Fear Advisory Level\
+layout: post
+typo_id: 289
+title: Fear Advisory Level
 ---
 
 <table>
@@ -13,8 +13,8 @@ title: Fear Advisory Level\
 S E V E R E
 
 </h4>
-Driving off the road: 254,419<br />\
-Falling: 146,542<br />\
+Driving off the road: 254,419<br />
+Falling: 146,542<br />
 Accidental poisoning: 140,327<br />
 
 </td>
@@ -29,8 +29,8 @@ Accidental poisoning: 140,327<br />
 H I G H
 
 </h4>
-Dying from work: 59,730<br />\
-Walking down the street: 52,000<br />\
+Dying from work: 59,730<br />
+Walking down the street: 52,000<br />
 Accidentally drowning: 38,302<br />
 
 </td>
@@ -45,7 +45,7 @@ Accidentally drowning: 38,302<br />
 E L E V A T E D
 
 </h4>
-Killed by the flu: 19,415<br />\
+Killed by the flu: 19,415<br />
 Dying from a hernia: 16,742<br />
 
 </td>
@@ -60,7 +60,7 @@ Dying from a hernia: 16,742<br />
 G U A R D E D
 
 </h4>
-Accidental firing of a gun: 8,536<br />\
+Accidental firing of a gun: 8,536<br />
 Electrocution: 5,171<br />
 
 </td>
@@ -75,8 +75,8 @@ Electrocution: 5,171<br />
 L O W
 
 </h4>
-Being shot by law enforcement: 3,949<br />\
-Terrorism: 3147<br />\
+Being shot by law enforcement: 3,949<br />
+Terrorism: 3147<br />
 Carbon monoxide in products: 1,554<br />
 
 </td>

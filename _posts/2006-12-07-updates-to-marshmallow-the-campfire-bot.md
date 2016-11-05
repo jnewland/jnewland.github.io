@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 295\
-title: Updates to Marshmallow, the Campfire bot\
----\
+layout: post
+typo_id: 295
+title: Updates to Marshmallow, the Campfire bot
+---
 At work, we've been using [Campfire](http://campfirenow.com), the
 wonderful web-based group chat application from
 [37signals](http://37signals.com) for a while now, and have found it
@@ -30,20 +30,20 @@ let this loose. Without further ado, here's [Marshmallow
 
 ### Example Usage
 
-{% highlight ruby %}\
+{% highlight ruby %}
 \#!/usr/local/bin/ruby
 
 require 'marshmallow'
 
-bot = Marshmallow.new(:domain =&gt; 'yoursubdomain')\
+bot = Marshmallow.new(:domain =&gt; 'yoursubdomain')
 bot.login :method =&gt; :login, :username =&gt; "email@you.com",
 :password =&gt; "secret", :room =&gt; "34567"
 
-while(true)\
-bot.watch do |m|\
+while(true)
+bot.watch do |m|
 bot.say("Hello, \#{m\[:person\]}") if
-m\[:message\].match(/\^(hello|hi|hey)\$/i)\
-end\
-sleep 3\
-end\
+m\[:message\].match(/\^(hello|hi|hey)\$/i)
+end
+sleep 3
+end
 {% endhighlight %}

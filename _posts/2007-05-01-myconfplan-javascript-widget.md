@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 3656\
-title: MyConfPlan Javascript Widget\
----\
+layout: post
+typo_id: 3656
+title: MyConfPlan Javascript Widget
+---
 I've hacked up a simple Javascript widget for everyone out there using
 [myconfplan](http://myconfplan.com), [Dr Nic
 Williams'](http://drnicwilliams.com/) wonderful conference session

@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 65\
-title: "\\"George Bush doesn't care about black people\\""\
----\
+layout: post
+typo_id: 65
+title: "\\"George Bush doesn't care about black people\\""
+---
 I don't know about you, but I'm suddenly a bigger Kanye West fan than I
 was 10 minutes ago. During NBC's live Katrina benefit concert tonight,
 he ignored the teleprompter and spoke emotionally about the governments

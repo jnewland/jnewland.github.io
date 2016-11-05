@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 3836\
-title: Fire Eagle, meet Danger Day\
----\
+layout: post
+typo_id: 3836
+title: Fire Eagle, meet Danger Day
+---
 <a name="instructions"></a> <span style="color:red">**UPDATE**: These
 instructions are out of date. See
 [here](http://soylentfoo.jnewland.com/articles/2008/03/06/fire-eagle-location-aware-applications-without-the-hassle)

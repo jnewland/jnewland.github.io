@@ -1,22 +1,22 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 300\
-title: Firebug 1.0 Beta Screencast\
----\
+layout: post
+typo_id: 300
+title: Firebug 1.0 Beta Screencast
+---
 
 &lt;div style="float:left;margin:10px;"&gt;
 &lt;script type="text/javascript"&gt;&lt;!--
-google\_ad\_client = "pub-5165033129816339";
+google_ad_client = "pub-5165033129816339";
 //250x250, created 11/22/07
-google\_ad\_slot = "4463239324";
-google\_ad\_width = 250;
-google\_ad\_height = 250;
+google_ad_slot = "4463239324";
+google_ad_width = 250;
+google_ad_height = 250;
 //--&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show\_ads.js"&gt;
+&lt;script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"&gt;
 &lt;/script&gt;
 &lt;/div&gt;
-\
+
 Just a couple days ago [Firebug](http://getfirebug.com) 1.0 Beta was
 [released](http://www.getfirebug.com/blog/2006/12/04/firebug-10-news/),
 with loads and loads of new features. [Roger

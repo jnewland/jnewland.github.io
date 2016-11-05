@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 22\
-title: Odeo massage\
----\
+layout: post
+typo_id: 22
+title: Odeo massage
+---
 While listening to podcasts on [Odeo](http://odeo.com) at work I
 stumbled across this error <del>massage</del> message:
 

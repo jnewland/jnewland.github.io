@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 3615\
-title: Tweet - Update Twitter via Quicksilver\
----\
+layout: post
+typo_id: 3615
+title: Tweet - Update Twitter via Quicksilver
+---
 [Tweet](http://www.sauria.com/blog/2007/01/18/growlified-tweet/), a
 Twitter Quicksilver Action, is my favorite [Twitter](http://twitter.com)
 updating vehicle as of late - except for one thing. It uses Keychain

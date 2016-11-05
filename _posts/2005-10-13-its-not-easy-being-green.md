@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 76\
-title: It's Not Easy Being Green\
----\
+layout: post
+typo_id: 76
+title: It's Not Easy Being Green
+---
 To celebrate the [Typo Theme Contest](http://typogarden.com/), I'll be
 redesigning my blog numerous times this month. This edition will be
 called *Simple*, and will be tested here for a few days, submitted, and

@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 129\
-title: MINUS TWENTY\
----\
+layout: post
+typo_id: 129
+title: MINUS TWENTY
+---
 <typo:flickr style="float:right" img="71222671" size="original" />
 
 Wow. Ladies and Gentleman, there's a FIFTY NINE DEGREE difference

@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 256\
-title: "Hits = Shit : How (Not) to Read Your Blog Statsistics"\
----\
+layout: post
+typo_id: 256
+title: "Hits = Shit : How (Not) to Read Your Blog Statsistics"
+---
 bq. *"There are three types of lies - lies, damn lies, and statistics."
 - Variously attributed to Benjamin Disraeli, Alfred Marshall, Mark Twain
 and many other dead people.*

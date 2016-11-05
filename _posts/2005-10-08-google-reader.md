@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 74\
-title: Google Reader\
----\
+layout: post
+typo_id: 74
+title: Google Reader
+---
 Have a [Gmail](http://gmail.com) account yet? [Subscribe to my
 blog](http://www.google.com/reader/preview/jesse+newland/feed/http://blog.jnewland.com/xml/rss/feed.xml)
 in [Google Reader](http://www.google.com/reader),

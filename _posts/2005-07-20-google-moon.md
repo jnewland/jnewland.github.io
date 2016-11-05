@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 26\
-title: google moon\
----\
+layout: post
+typo_id: 26
+title: google moon
+---
 Google has launched [Google Moon](http://moon.google.com) today in honor
 of the first manned moon landing on July 20th, 1969. Make sure you zoom
 **all** the way in :)

@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 111\
-title: NetNewsWire OPML to Blogroll\
----\
+layout: post
+typo_id: 111
+title: NetNewsWire OPML to Blogroll
+---
 Use [NetNewsWire](http://ranchero.com/netnewswire/) and want a list of
 your subscriptions on your blog? Here's how I did it:
 
@@ -26,30 +26,30 @@ your subscriptions on your blog? Here's how I did it:
 -   Paste the following XSL stylesheet into the *XSL* tab of
     [TestXSLT](http://www.entropy.ch/software/macosx/#testxslt).
 
-{% highlight xml %}\
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">\
-<xsl:output method="html" indent="yes" standalone="no" omit-xml-declaration="yes" />\
+{% highlight xml %}
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:output method="html" indent="yes" standalone="no" omit-xml-declaration="yes" />
 <xsl:template match="/">
 
 <ul>
-<xsl:apply-templates select="//outline" >\
-<xsl:sort select="@title" data-type="text" />\
+<xsl:apply-templates select="//outline" >
+<xsl:sort select="@title" data-type="text" />
 </xsl:apply-templates>
 
 </ul>
-</xsl:template>\
-<xsl:template match="outline">\
-<xsl:choose>\
+</xsl:template>
+<xsl:template match="outline">
+<xsl:choose>
 <xsl:when test="@type='rss'">
 
 <li>
 <a href="{@htmlUrl}"><xsl:value-of select="@title" /></a>
 
 </li>
-</xsl:when>\
-</xsl:choose>\
-</xsl:template>\
-</xsl:stylesheet>\
+</xsl:when>
+</xsl:choose>
+</xsl:template>
+</xsl:stylesheet>
 {% endhighlight %}
 
 -   Switch to the results tab and press *Process*. Voila! Your blogroll

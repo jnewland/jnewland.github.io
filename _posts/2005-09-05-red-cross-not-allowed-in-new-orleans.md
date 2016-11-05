@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 68\
-title: Red Cross NOT ALLOWED IN NEW ORLEANS\
----\
+layout: post
+typo_id: 68
+title: Red Cross NOT ALLOWED IN NEW ORLEANS
+---
 [This](http://www.redcross.org/faq/0,1096,0_682_4524,00.html) is
 absolutely insane:
 

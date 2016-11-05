@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 3978\
-title: "Rails Metal: a micro-framework with the power of Rails: \\\\m/"\
----\
+layout: post
+typo_id: 3978
+title: "Rails Metal: a micro-framework with the power of Rails: \\\\m/"
+---
 **Updates**:
 
 -   Clarified the distinction between Rails Metal and Rack middleware
@@ -30,55 +30,55 @@ power of Rack middleware to create super-fast actions.
 
 For example, here's a sample "Hello World" Metal:
 
-{% highlight ruby %}\
-class Poller &lt; Rails::Rack::Metal\
-def call(env)\
-if env\["PATH\_INFO"\] =\~ /\^\\/poller/\
-\[200, {"Content-Type" =&gt; "text/html"}, "Hello, World!"\]\
-else\
-\[404, {"Content-Type" =&gt; "text/html"}, "Not Found"\]\
-end\
-end\
-end\
+{% highlight ruby %}
+class Poller &lt; Rails::Rack::Metal
+def call(env)
+if env\["PATH_INFO"\] =\~ /\^\\/poller/
+\[200, {"Content-Type" =&gt; "text/html"}, "Hello, World!"\]
+else
+\[404, {"Content-Type" =&gt; "text/html"}, "Not Found"\]
+end
+end
+end
 {% endhighlight %}
 
 And for comparison, a "Hello World" controller:
 
-{% highlight ruby %}\
-class OldPollerController &lt; ApplicationController\
-def poller\
-render :text =&gt; "Hello World!"\
-end\
-end\
+{% highlight ruby %}
+class OldPollerController &lt; ApplicationController
+def poller
+render :text =&gt; "Hello World!"
+end
+end
 {% endhighlight %}
 
 So, let's fire up `ruby script/server` and see what this gives us:
 
-{% highlight text %}\
-\# traditional Controller\
-\$ curl 127.0.0.1:3000/old\_poller/poller\
+{% highlight text %}
+\# traditional Controller
+\$ curl 127.0.0.1:3000/old_poller/poller
 Hello World!
 
-\# the new Metal\
-\$ curl 127.0.0.1:3000/poller\
-Hello World!\
+\# the new Metal
+\$ curl 127.0.0.1:3000/poller
+Hello World!
 {% endhighlight %}
 
 So, the point of all of these other "micro-frameworks" is that they're
 faster than Rails, right? Let's benchmark this new "Hello World" Metal:
 
-{% highlight text %}\
-\# first, let's benchmark the traditional controller\
-\$ ab -n 1000 http://127.0.0.1:3000/old\_poller/poller\
-... snip ...\
-Requests per second: 408.45 \[\#/sec\] (mean)\
+{% highlight text %}
+\# first, let's benchmark the traditional controller
+\$ ab -n 1000 http://127.0.0.1:3000/old_poller/poller
+... snip ...
+Requests per second: 408.45 \[\#/sec\] (mean)
 Time per request: 2.448 \[ms\] (mean)
 
-\# now for the Metal middleware\
-\$ ab -n 1000 http://127.0.0.1:3000/poller\
-... snip ...\
-Requests per second: 1154.66 \[\#/sec\] (mean)\
-Time per request: 0.866 \[ms\] (mean)\
+\# now for the Metal middleware
+\$ ab -n 1000 http://127.0.0.1:3000/poller
+... snip ...
+Requests per second: 1154.66 \[\#/sec\] (mean)
+Time per request: 0.866 \[ms\] (mean)
 {% endhighlight %}
 
 For this trivial "Hello World" benchmark, Rails Metal is 2.8x faster
@@ -93,15 +93,15 @@ and it's all integrated as a part of your Rails app. Easy!
 You can [now](http://github.com/rails/rails/commit/61a41154f) also use
 Sinatra to create Metal end points:
 
-{% highlight ruby %}\
-Sinatra::Application.default\_options.merge!(:run =&gt; false, :env
-=&gt;\
-:production)\
+{% highlight ruby %}
+Sinatra::Application.default_options.merge!(:run =&gt; false, :env
+=&gt;
+:production)
 Api = Sinatra.application unless defined? Api
 
-get '/interesting/new/ideas' do\
-'Hello Sinatra!'\
-end\
+get '/interesting/new/ideas' do
+'Hello Sinatra!'
+end
 {% endhighlight %}
 
 First person to show the use of a Merb app as a Metal end point wins a
@@ -112,8 +112,8 @@ prize.
 Additionaly, Rails Metal are able to be executed in a separate process
 from your Rails application using `rackup`:
 
-{% highlight text %}\
-rackup -s mongrel app/metal/poller.rb\
+{% highlight text %}
+rackup -s mongrel app/metal/poller.rb
 {% endhighlight %}
 
 This runs the Poller Metal separeately from Rails, on it's own port
@@ -129,16 +129,16 @@ they hit the whole stack, and I submitted a patch cleaning up the
 Integration Testing behavior of Metal. Testing Metal end points now
 works just like any other Integration test:
 
-{% highlight ruby %}\
-class PollerTest &lt; ActionController::IntegrationTest\
-test "poller returns hello world" do\
-get "/poller"\
-assert\_response 200\
-assert\_response :success\
-assert\_response :ok\
-assert\_equal "Hello World!", response.body\
-end\
-end\
+{% highlight ruby %}
+class PollerTest &lt; ActionController::IntegrationTest
+test "poller returns hello world" do
+get "/poller"
+assert_response 200
+assert_response :success
+assert_response :ok
+assert_equal "Hello World!", response.body
+end
+end
 {% endhighlight %}
 
 ### Fun With Middleware
@@ -149,38 +149,38 @@ framework-independent components that process requests independently or
 in concert with other middleware. For example, here's a simple piece of
 Rack middleware that runs a regex on responses:
 
-{% highlight ruby %}\
-class RegexMiddleware\
-def initialize(app)\
-@app = app\
+{% highlight ruby %}
+class RegexMiddleware
+def initialize(app)
+@app = app
 end
 
-def call(env)\
-status, headers, response = @app.call(env)\
-new\_response = \[\]\
-response.each do |part|\
-new\_response &lt;&lt; part.gsub(/World/, 'Middleware')\
-end\
-\[status, headers, new\_response\]\
-end\
-end\
+def call(env)
+status, headers, response = @app.call(env)
+new_response = \[\]
+response.each do |part|
+new_response &lt;&lt; part.gsub(/World/, 'Middleware')
+end
+\[status, headers, new_response\]
+end
+end
 {% endhighlight %}
 
 To use this rack middleware in Rails, add this line to your
 `environment.rb`
 
-{% highlight ruby %}\
-Rails::Initializer.run do |config|\
-...\
-config.middleware.use RegexMiddleware\
-end\
+{% highlight ruby %}
+Rails::Initializer.run do |config|
+...
+config.middleware.use RegexMiddleware
+end
 {% endhighlight %}
 
 Restart your server, and check out what happens:
 
-{% highlight text %}\
-\$ curl 127.0.0.1:3000/poller\
-Hello Middleware!\
+{% highlight text %}
+\$ curl 127.0.0.1:3000/poller
+Hello Middleware!
 {% endhighlight %}
 
 The Rack middleware filtered the output of the Metal we created before.

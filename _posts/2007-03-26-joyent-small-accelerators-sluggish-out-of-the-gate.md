@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 3638\
-title: Joyent Small 'Accelerators' Sluggish out of the Gate\
----\
+layout: post
+typo_id: 3638
+title: Joyent Small 'Accelerators' Sluggish out of the Gate
+---
 I've been a long-time fan and supporter of
 [Textdrive](http://www.textdrive.com/) Web Hosting - now a subsidiary of
 [Joyent](http://www.joyent.com). They've done a great job over the years

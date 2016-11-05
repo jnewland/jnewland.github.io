@@ -1,9 +1,9 @@
-------------------------------------------------------------------------
+---
 
-layout: post\
-typo\_id: 3634\
-title: Soylentfoo on Rocketboom, Amazon EC2\
----\
+layout: post
+typo_id: 3634
+title: Soylentfoo on Rocketboom, Amazon EC2
+---
 Soylentfoo and
 [Tweet](http://soylentfoo.jnewland.com/articles/2007/01/22/tweet-update-twitter-via-quicksilver),
 a [Twitter](http://www.twitter.com) action for
