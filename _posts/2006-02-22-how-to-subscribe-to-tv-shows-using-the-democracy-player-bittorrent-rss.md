@@ -2,8 +2,7 @@
 
 layout: post
 typo_id: 160
-title: How to Subscribe to TV Shows Using The Democracy Player,
-Bittorrent, and RSS
+title: How to Subscribe to TV Shows Using The Democracy Player, Bittorrent, and RSS
 ---
 
 &lt;div style="float:left;margin:10px;"&gt;

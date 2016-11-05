@@ -2,8 +2,7 @@
 
 layout: post
 typo_id: 75
-title: Blackboard buys WebCT. College students around the world still
-hate both.
+title: Blackboard buys WebCT. College students around the world still hate both.
 ---
 So it seems the two largest suppliers of enterprise education software
 have become one. Blackboard has [purchased WebCT for \$180 **million**
