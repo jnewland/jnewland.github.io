@@ -16,13 +16,17 @@
     <header>
       <div class="container">
         <h1>Jesse Newland</h1>
-        <h2></h2>
+        <h2>Archives</h2>
       </div>
     </header>
 
     <div class="container">
       <section id="main_content">
-        <p><g-emoji alias="wave" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44b.png" ios-version="6.0">👋</g-emoji> I'm <a href="https://github.com/jnewland" class="user-mention">@jnewland</a> on most things.</p>
+        <ul class="posts">
+          {% for post in site.posts %}
+            <li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
       </section>
     </div>
 
