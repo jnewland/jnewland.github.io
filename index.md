@@ -2,8 +2,12 @@
 
 I'm Jesse.
 
-I'm <a href="https://twitter.com/jnewland">@jnewland</a> on the internet.
+I'm @jnewland on most things the internet:
 
-I live in Austin, TX and enjoy <a href="https://github.com/jnewland">making my life easier with software</a>.
+* <a rel="me" href="https://github.com/jnewland">GitHub</a>
+* <a rel="me" href="https://twitter.com/jnewland">Twitter</a>
+* <a rel="me" href="https://hachyderm.io/@jnewland">Mastodon</a>
+
+I write YAML for http://urcomputeringpal.com to pay the bills.
 
 I generally read my <a href="mailto:jesse@jnewland.com">✉️</a> if you'd like to chat more.
