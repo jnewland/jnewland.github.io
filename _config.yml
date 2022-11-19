@@ -1,1 +1,4 @@
 permalink: /articles/:year/:month/:day/:title
+include:
+  - .well-known
+  - .well-known/webfinger.html
